@@ -1,5 +1,5 @@
 /* Fonts */
-$font-family-title: "Roboto Slab", "Times New Roman", garamond, serif;
+$font-family-title: "Inconsolata", "Times New Roman", garamond, serif;
 $font-family-normal: "Fira Sans", arial, helvetica, sans-serif;
 $font-family-mono: "Ubuntu Mono", monaco, consolas, monospace;
 
@@ -27,14 +27,14 @@ $spacer-large2: $spacer-small * 4;
 $spacer-largest: $spacer-small * 6;
 
 /* Colors */
-$blue: hsl(
+$green: hsl(
   $hue: 240deg,
-  $saturation: 100%,
+  $saturation: 50%,
   $lightness: 50%,
 );
 
 /* Light theme colors */
-$accent--light: $blue;
+$accent--light: $green;
 $background--light: scale-color(
   $accent--light,
   $saturation: -60%,
@@ -52,7 +52,7 @@ $text-links--light: adjust-color(
 );
 
 /* Dark theme colors */
-$accent--dark: $blue;
+$accent--dark: $green;
 $background--dark: scale-color(
   $accent--dark,
   $saturation: -80%,

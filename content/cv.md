@@ -13,34 +13,23 @@ Technical Skills
 ----------------
 
 {{< cv/skills
-  languages="Python, Javascript, CSS"
-  frameworks="Django, D3.js, HTMX"
-  tools="Git, Docker, Github Actions, VS Code, Linux" >}}
+  languages="Python, Javascript, HTML/CSS, SaSS, SQL, Bash"
+  frameworks="Django, D3.js, HTMX, Bulma, Pandas, Seaborn, Matplotlib"
+  tools="Git, Docker, Github Actions, VS Code, Linux, Redis, PostgreSQL, django-channels, websockets" >}}
 
 Experience
 ----------
 
 {{< cv/experience
   name="Preteckt"
-  date="January 2022 – February 2024"
+  date="January 2020 – February 2024"
   title="Full Stack Software Engineer"
   location="Memphis, TN" >}}
 
-* 
+* As a full stack software engineer at Preteckt I helped reduce technical debt and modernize a large Django project, keeping the project on the latest LTS releases. I designed and built several user interfaces for both internal and external customers, working closely with other teams and departments to optimize the new interfaces to facilitate user efficiency and accessibility. I implemented websockets to better handle loading large data payloads in a React frontend. I also used websockets and HTMX to create a single page-like interface with standard Django functional views that updated based on the actions of other users. I also did a lot work to make the development experience better, including helping to dockerize the development environment, contructing a Javascript build process, improving documentation and testing. I was also part of an employee culture committee, gave several lunch and learns on various topics, and mentored interns and people from other teams.
 
 {{< cv/skills
   technologies="Python, Django, HTMX, HTML, CSS, SASS, Javascript, D3.js, PostgreSQL, Github CI/CD" >}}
-
-{{< cv/experience
-  name="Preteckt"
-  date="January 2020 – January 2022"
-  title="Junior Full Stack Software Engineer"
-  location="Memphis, TN" >}}
-
-* 
-
-{{< cv/skills
-  technologies="Python, Django, HTML, CSS, SASS, PostgreSQL, Docker" >}}
 
 {{< cv/experience
   name="Lensrentals"
@@ -76,7 +65,7 @@ Education
 Community Involvement
 ---------------------
 
-* Memphis Technology Foundation Board Member, Memphis Keebup Organizer, Memphis Givecamp volunteer, Seattle Givecamp volunteer
+* Memphis Technology Foundation Board Member since 2019, Memphis Keebup Organizer in 2019, Memphis Givecamp volunteer (2018, 2019, 2020, 2021, 2022, 2024), Seattle Givecamp volunteer in 2021, speaker at Athena Teche in 2020
 
 Professional Interests
 ----------------------
