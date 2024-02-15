@@ -1,0 +1,62 @@
+baseURL = '/'
+theme = 'hugo-xterm'
+title = "Xavier Tilley's Portfolio"
+author = "Xavier Tilley"
+paginate = 20
+languageCode = 'en-us'
+
+[params]
+  centerTheme = true
+  showmenuItems = true
+  favicon = "/images/xterm.png"
+  showBreadCrumbs = true
+  toc = true
+  copyright = "©"
+  copyrightUserUrl = "https://github.com/hippietilley/"
+  copyrightUserText = "Xavier Tilley"
+  readOtherPosts = "Read other posts"
+  missingContentMessage = "Page not found..."
+  missingBackButtonLabel = "Back to home page"
+
+[params.twitter]
+  creator = "hippietilley"
+
+[params.logo]
+  logoText = "home"
+
+[languages]
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "cv"
+      name = "CV"
+      url = "/cv/"
+      pageRef = "/cv"
+
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts/"
+      pageRef = "/posts"
+
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about/"
+      pageRef = "/about"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineNoStart = 1
+    lineNos = 1
+    lineNumbersInTable = false
+    noClasses = false
