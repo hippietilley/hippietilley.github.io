@@ -7,6 +7,7 @@ type = "cv"
 [contact]
   phone = "(731) 439-1406"
   email = "hippietilley[at]gmail[dot]com"
+  website = "tilley.dev"
 +++
 
 Technical Skills
@@ -41,17 +42,6 @@ Experience
 
 {{< cv/skills
   technologies="React Native, Javascript, Zebra SDK, Android Studio" >}}
-
-{{< cv/experience
-  name="MD2K"
-  date="September 2018 - April 2019"
-  title="Undergraduate Research Assistant"
-  location="Memphis, TN" >}}
-
-* As an undergraduate research assistant my responsibilities include documenting the existing codebase, developing applications to help demonstrate the functionality of the system, writing functional tests, and maintaining the Gitlab CI pipeline. My last work project consisted of implementing a way to package data collected from phone sensors into MessagePack files. These files were then uploaded to the cloud and converted into Parquet files to streamline the cloud architecture.
-
-{{< cv/skills
-  technologies="Java, Android Studio, Python, MessagePack, Pandas, Gitlab CI" >}}
 
 Education
 ---------
