@@ -22,6 +22,14 @@
           {{- with .Params.Author -}}
             <span> | {{ . }}</span>
           {{- end -}}
+
+          {{- with .Params.Event -}}
+            <span> | {{ . }}</span>
+          {{- end -}}
+
+          {{- with .Params.Location -}}
+            <span> | {{ . }}</span>
+          {{- end -}}
         </p>
       {{- end -}}
 
