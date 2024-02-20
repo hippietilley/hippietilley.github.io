@@ -1,6 +1,6 @@
 +++
 title = "Interactive D3.js charts with HTMX"
-description = """An example of how to use HTMX inside of a D3.js chart."""
+description = "An example of how to use HTMX inside of a D3.js chart."
 date = "2024-02-15"
 author = "Xavier Tilley"
 tags = ["javascript", "D3.js", "HTMX", "data visualization"]

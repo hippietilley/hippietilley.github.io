@@ -1,0 +1,150 @@
+/* Override this file to customise the theme's CSS for your site */
+/* The actual sliders. */
+dl {
+  padding-left: 143px;
+
+  @include themed {
+    background: transparent t($none-file) no-repeat;
+  }
+}
+
+dt {
+  height: 39px;
+  font-size: 1.2em;
+  overflow: hidden;
+}
+
+dt::before {
+  display: inline-block;
+  width: 348px;
+  height: 41px;
+  content: '';
+  vertical-align: middle;
+  margin-right: .3em;
+  @include themed {
+    background: transparent t($arrow-file);
+  }
+}
+
+#identity dt::before {
+  @include themed {
+    background-color: t($syn-kw);
+  }
+}
+
+#expression dt::before {
+  @include themed {
+    background-color: t($syn-ld);
+  }
+}
+
+#anatomy dt::before {
+  background-color: #ae81ff;
+}
+
+#sexual dt::before {
+  background-color: $syn-op;
+}
+
+#romantic dt::before {
+  @include themed {
+    background-color: t($syn-na);
+  }
+}
+
+dd {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  text-indent: 25px;
+  margin: -31px 0 0 3px;
+  @include themed {
+    background: transparent t($selector-file);
+  }
+}
+
+dt span {
+  font-size: 90%;
+}
+
+/* 11 + 3x */
+dd[title="5%"] {
+  margin-left: 18px;
+}
+
+dd[title="10%"] {
+  margin-left: 33px;
+}
+
+dd[title="15%"] {
+  margin-left: 48px;
+}
+
+dd[title="20%"] {
+  margin-left: 63px;
+}
+
+dd[title="25%"] {
+  margin-left: 86px;
+}
+
+dd[title="30%"] {
+  margin-left: 93px;
+}
+
+dd[title="35%"] {
+  margin-left: 108px;
+}
+
+dd[title="40%"] {
+  margin-left: 123px;
+}
+
+dd[title="45%"] {
+  margin-left: 138px;
+}
+
+dd[title="50%"] {
+  margin-left: 153px;
+}
+
+dd[title="55%"] {
+  margin-left: 168px;
+}
+
+dd[title="60%"] {
+  margin-left: 183px;
+}
+
+dd[title="65%"] {
+  margin-left: 198px;
+}
+
+dd[title="70%"] {
+  margin-left: 213px;
+}
+
+dd[title="75%"] {
+  margin-left: 228px;
+}
+
+dd[title="80%"] {
+  margin-left: 243px;
+}
+
+dd[title="85%"] {
+  margin-left: 258px;
+}
+
+dd[title="90%"] {
+  margin-left: 273px;
+}
+
+dd[title="95%"] {
+  margin-left: 288px;
+}
+
+dd[title="100%"] {
+  margin-left: 303px;
+}

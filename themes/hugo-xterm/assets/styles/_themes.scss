@@ -13,6 +13,9 @@ $code-background: "code-background";
 $blockquote-background: "blockquote-background";
 $button-text: "button-text";
 $button-background: "button-background";
+$none-file: "none-file";
+$selector-file: "selector-file";
+$arrow-file: "arrow-file";
 
 /* Syntax highlighting colors variables */
 $syn-bg: "syn-bg";
@@ -55,6 +58,9 @@ $themes: (
     $syn-lse: #8045ff,
     $syn-n: #111,
     $syn-na: #75af00,
+    $none-file: url(images/none-light.png),
+    $selector-file: url(images/selector-light.png),
+    $arrow-file: url(images/arrow-light.png),
   ),
   dark: (
     $accent: $accent--dark,
@@ -81,6 +87,9 @@ $themes: (
     $syn-lse: #ae81ff,
     $syn-n: #f8f8f2,
     $syn-na: #a6e22e,
+    $none-file: url(images/none-dark.png),
+    $selector-file: url(images/selector-dark.png),
+    $arrow-file: url(images/arrow-dark.png),
   ),
 );
 
