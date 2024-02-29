@@ -62,7 +62,7 @@ Professional Interests
 
 * Accessibility, Usability, Data Visualization, Linux, and Open Source software
 
-Hobbies
--------
+Personal Interests
+------------------
 
 * American Sign Language, Knitting, Keyboard building, and Board games
