@@ -1,68 +1,86 @@
 +++
 title = "CV"
-name = "Xavier Tilley"
-description = """Creative, motivated full stack software engineer looking to make a positive change in the world."""
+name = "Haile Meregillano"
+description = """Motivated and experienced Senior Automotive and Diesel Diagnostic Technician seeking a challenging diagnostic data analyst postion."""
 type = "cv"
 
 [contact]
-  phone = "(731) 439-1406"
-  email = "hippietilley[at]gmail[dot]com"
-  website = "tilley.dev"
+  phone = "(951)326-6521"
+  email = "hiatt15[at]gmail[dot]com"
 +++
 
 Technical Skills
 ----------------
 
 {{< cv/skills
-  languages="Python, Javascript, HTML/CSS, SaSS, SQL, Bash"
-  frameworks="Django, D3.js, HTMX, Bulma, Pandas, Seaborn, Matplotlib"
-  tools="Git, Docker, Github Actions, VS Code, Linux, Redis, PostgreSQL, django-channels, websockets" >}}
+  languages="Python, SQL"
+  frameworks="Matplotlib, Seaborn, Pandas, Numpy, Azure Data Studio"
+  tools="Git, VS Code, PostgreSQL, Jupyter Hub, PowerBI, Visual Paradigm" >}}
 
 Experience
 ----------
 
 {{< cv/experience
   name="Preteckt"
-  date="January 2020 – February 2024"
-  title="Full Stack Software Engineer"
+  date="2020 – 2024"
+  title="Senior Diesel Diagnostic Technician"
   location="Memphis, TN" >}}
 
-* As a full stack software engineer at Preteckt I helped reduce technical debt and modernize a large Django project, keeping the project on the latest LTS releases. I designed and built several user interfaces for both internal and external customers, working closely with other teams and departments to optimize the new interfaces to facilitate user efficiency and accessibility. I implemented websockets to better handle loading large data payloads in a React frontend. I also used websockets and HTMX to create a single page-like interface with standard Django functional views that updated based on the actions of other users. I also did a lot work to make the development experience better, including helping to dockerize the development environment, contructing a Javascript build process, improving documentation and testing. I was also part of an employee culture committee, gave several lunch and learns on various topics, and mentored interns and people from other teams.
+* Utilized data, AI, and ML to predict engine and aftertreatment failure in trucks and buses. Assisted with implementation of our SaaS to improve vehicle reliability and uptime. Develop and implement Python and T-SQL scripts for data analysis and reporting. Collaborate with the data science team to perform exploratory data analysis (EDA) and provide feedback on AI and ML models.Established and led training program for new hires across multiple teams. Manage a team of technicians to serve a large customer, ensuring all needs were met according to satisfaction, pushing for consistency and continued improvement, and maintaining the relationship with the customer via regular meetings. Participated in several large projects branching multiple departments, collaborating effectively with software engineers, data scientists, and management, ensuring goals are met on-time and exceeding expectations in order to secure funding.
 
 {{< cv/skills
-  technologies="Python, Django, HTMX, HTML, CSS, SASS, Javascript, D3.js, PostgreSQL, Github CI/CD" >}}
+  technologies="Python, Juptyer Hub, PostgreSQL, git" >}}
 
 {{< cv/experience
-  name="Lensrentals"
-  date="May 2019 – January 2020"
-  title="Software Development Intern"
-  location="Memphis, TN" >}}
+  name="Mercedes Benz of Farmington"
+  date="2019 – 2020"
+  title="Automotive Repair Technician"
+  location="Farmington, UT" >}}
 
-* As a development intern at Lensrentals I have learned a lot about React Native based mobile development. The project I was tasked with involved writing several parts of the existing web based Ruby on Rails application as a React Native based solution to run on Zebra's Android platforms. The goal was to incorporated mobile devices in the warehouse's workflow to enable warehouse workers to be more precise and efficient.
+* Ensured high-quality workmanship and customer satisfaction. Created and maintained technical service cases. Maintained and utilized a mobile repair vehicle, maintained relationships with fleet and wholesale customers while operating at off-site locations. Assisted with training of new technicians, lead group diagnostics for training purposes, and performed difficult diagnostics. Established routines and procedures for goodwill, assisted in warranty claim submissions to ensure complete, thorough, and profitable submissions.
 
-{{< cv/skills
-  technologies="React Native, Javascript, Zebra SDK, Android Studio" >}}
+{{< cv/experience
+  name="Mercedes Benz of Temecula"
+  date="2017 - 2019"
+  title="Automotive Repair Technician"
+  location="Temecula, CA"
+>}}
+
+* Demonstrated expertised in troubleshooting and resolving technical issues. Ensured high-quality workmanship and customer satisfaction. Worked with manufacturer field service experts to identify problems, gather data and assist with recall creation and solution identification. Assisted with training of new technicians, and assisted techs with difficult diagnostics.
 
 Education
 ---------
 
 {{< cv/experience
-  name="University of Memphis"
-  date="August 2016 - December 2019"
-  title="Bachelor of Science in Computer Science"
-  location="Memphis, TN" >}}
+  name="Tech901"
+  date="January 2024 - April 2024"
+  title="Data Analyst Program"
+  location="Memphis, TN"
+>}}
 
-Community Involvement
+{{< cv/experience
+  name="BMW STEP"
+  date="2014"
+  title="Level 3 Technician"
+  location="Ontario, CA" >}}
+
+{{< cv/experience
+  name="Universal Technicial Institute"
+  date="2012-2013"
+  title="Certificate in Automotive Technology"
+  location="Rancho Cucamonga, CA"
+>}}
+
+Certifications
 ---------------------
-
-* Memphis Technology Foundation Board Member since 2019, Memphis Keebup Organizer in 2019, Memphis Givecamp volunteer (2018, 2019, 2020, 2021, 2022, 2024), Seattle Givecamp volunteer in 2021, speaker at Athena Teche in 2020
+ASE Certified medium/Heavy Truck Technician (ASE-5870-3669)
 
 Professional Interests
 ----------------------
 
-* Accessibility, Usability, Data Visualization, Linux, and Open Source software
+* Data driven diagnostics, data visualization
 
-Hobbies
+Personal Interests
 -------
 
-* American Sign Language, Knitting, Keyboard building, and Board games
+* Dogs, cars
