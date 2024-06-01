@@ -43,6 +43,22 @@ Experience
 {{< cv/skills
   technologies="React Native, Javascript, Zebra SDK, Android Studio" >}}
 
+{{< cv/experience
+  name="MD2K (University of Memphis)"
+  date="January 2018 - May 2019"
+  title="Undergraduate Research Assistant"
+  location="Memphis, TN" >}}
+
+* As an undergraduate research assistant my responsibilities include documenting the
+existing codebase, developing applications to help demonstrate the functionality of
+the system, writing functional tests, and maintaining the Gitlab CI pipeline. My last
+work project consisted of implementing a way to package data collected from phone
+sensors into MessagePack files. These files were then uploaded to the cloud and
+converted into Parquet files to streamline the cloud architecture.
+
+{{< cv/skills
+  technologies="Java, Android, Android Studio, Gitlab CI, SQLite, MessagePack, Parquet, Pandas, Python" >}}
+
 Education
 ---------
 
