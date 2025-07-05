@@ -24,6 +24,10 @@ languageCode = 'en-us'
 [params.logo]
   logoText = "home"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [languages]
   [languages.en.menu]
     [[languages.en.menu.main]]
