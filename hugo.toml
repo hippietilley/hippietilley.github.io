@@ -2,7 +2,6 @@ baseURL = '/'
 theme = 'hugo-xterm'
 title = "Xavier Tilley's Portfolio"
 author = "Xavier Tilley"
-paginate = 20
 languageCode = 'en-us'
 
 [params]
@@ -27,6 +26,11 @@ languageCode = 'en-us'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[pagination]
+  disableAliases = false
+  pagerSize = 20
+  path = 'page'
 
 [languages]
   [languages.en.menu]
