@@ -15,11 +15,26 @@ Technical Skills
 
 {{< cv/skills
   languages="Python, Javascript, HTML/CSS, SaSS, SQL, Bash"
-  frameworks="Django, D3.js, HTMX, Bulma, Pandas, Seaborn, Matplotlib"
-  tools="Git, Docker, Github Actions, VS Code, Linux, Redis, PostgreSQL, django-channels, websockets" >}}
+  frameworks="Django, D3.js, HTMX, Pandas"
+  tools="Git, Docker, Github Actions, Linux, WSL, Redis, PostgreSQL" >}}
 
 Experience
 ----------
+
+{{< cv/experience
+  name="University at Buffalo Libraries"
+  date="October 2024 - Present"
+  title="Library Developer"
+  location="Buffalo, NY" >}}
+
+* At the UB Library I build applications to help support library operations, mostly in Python and Django, but there's a little Ruby and Ruby on Rails mixed in too. Notable projects include:
+* Gutenberg - An app to facilitate printing duplicate barcode stickers for the Libraries Annex on desktop Zebra printers
+* Alexandria - An app that more than doubled the scan rate of our student workers when weeding the collection. It interfaces with our library management software, Alma, via asynchronous API calls.
+* Scionto - An app that parses a messy EZProxy config file, provides a nice user friendly interface for maintaining EZProxy stanzas, and generates fresh config files. It aims to be a one stop EZProxy stanza management tool.
+* Hycastor - Our Hyrax/Ruby on Rails based digital asset management system. Yes, it's name is a portmanteau of Hyrax and castor, because dams are built by beavers...
+
+{{< cv/skills
+  technologies="Python, Django, HTMX, HTML, CSS, SASS, Javascript, Pandas, Fedora Repository, OCFL" >}}
 
 {{< cv/experience
   name="Preteckt"
